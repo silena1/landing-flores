@@ -1,0 +1,47 @@
+.card-content {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 350PX;
+}
+.card-content-1 {
+    background-color:hsl(31, 77%, 52%);
+ 
+}
+.card-content-2 {
+    background-color:hsl(184, 100%, 22%);
+}
+.card-content-3 {
+    background-color: hsl(179, 100%, 13%);
+}
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: ;
+    color:whitesmoke;  
+   
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: ;
+    color:whitesmoke;
+}
+button {
+    background-color: whitesmoke;
+    border:none;
+    border-radius:25px;
+    padding: 15px 35px ;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:16px;
+}
+
+button-1{
+   font-style:hsl(31, 77%, 52%);
+}
+button-2{
+    color:hsl(184, 100%, 22%) ;
+}
+button-3{
+    color: hsl(179, 100%, 13%);
+}
