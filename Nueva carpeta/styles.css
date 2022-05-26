@@ -4,31 +4,43 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/*
 @keyframes vaquita {
     0%   {background-color: palevioletred;}
     25%  {background-color: pink;}
     50%  {background-color: cyan;}
     100% {background-color: lightblue;}
   }
-
+*/
 .box {
     width: 150px;
     height: 150px;
     position: relative;
-    background-color: violet;
+    border-radius: 50%;
+    background-color: violet;   
     animation-name: vaquita;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-name: identifier;
+    animation-name: mover;
+   
 }
 
 
-@keyframes identifier {
-    0% { top: 0;  right: 0; }
-    25% {top: 0; right: 200px;}
-    30% { bottom: 200px;  right: 200px; }
-    50% { top: 0; left: 0; right: 0; }
-    70% { top: 0; left: 0; right: 0; }
-    100% { top: 0; left: 0; right: 0; }
-  }
+@keyframes mover {
+     0% {
+       transform: translate(opx);
+       background-color: palevioletred;
+     }
+     20% {
+       transform: translate(200px);
+       background-color: pink;
+     }
+     40%{
+       transform: translate(200px, 200px);
+       background-color: cyan;
+     }
+     60%{
+       transform: translate(0px,200px);
+       background-color: lightblue;
+     }
+}
