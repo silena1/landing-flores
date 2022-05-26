@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+@keyframes vaquita {
+    0%   {background-color: palevioletred;}
+    25%  {background-color: pink;}
+    50%  {background-color: cyan;}
+    100% {background-color: lightblue;}
+  }
+*/
+.box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    background-color: violet;   
+    animation-name: vaquita;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: mover;
+   
+}
+
+
+@keyframes mover {
+     0% {
+       transform: translate(opx);
+       background-color: palevioletred;
+     }
+     20% {
+       transform: translate(200px);
+       background-color: pink;
+     }
+     40%{
+       transform: translate(200px, 200px);
+       background-color: cyan;
+     }
+     60%{
+       transform: translate(0px,200px);
+       background-color: lightblue;
+     }
+}
