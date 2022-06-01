@@ -1,0 +1,21 @@
+body {
+    border-radius: 20px;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+    width:400px;
+    margin-top:100px ;
+    margin-bottom:100px ;
+    margin-left:500px ;
+    margin-right: 300px;
+}
+
+.card-content-1{
+    flex-direction: row;
+    display: flex;
+    background-color:pink;
+}
+
+.h1 {
+    font-family: 'Red Hat Display', sans-serif;
+}
