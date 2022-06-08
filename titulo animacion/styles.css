@@ -19,3 +19,10 @@ body {
 .h1 {
     font-family: 'Red Hat Display', sans-serif;
 }
+
+@keyframes titulo {
+    0% {transform: rotate(45deg)}
+    25%{transform: rotate(5deg)}
+    50%{marginleft: 10px}
+    75%{marginrigth: 20px}
+     }
