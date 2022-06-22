@@ -14,4 +14,4 @@ class product{
 const box1 = new product('largebox', 20, 100);
 const box2 =new product('smallbox',15, 100);
 
-digital.write(box1)
+console.log(box1)
