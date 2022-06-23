@@ -10,8 +10,7 @@ const product =[
 const iphone = products.find(product => product.price ===600);
 console.log (iphone);
 
-//Crea una copia del array anterior pero que contenga solo los precios de
-//los productos
+//Crea una copia del array anterior pero que contenga solo los precios de los productos
 const newPrices = products.map (product =>{
     return {name:product.name, price: product.price*1.500}
 });
