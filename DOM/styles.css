@@ -1,5 +1,27 @@
-.click me{
+.boton{
     border: 2px solid red;
     padding: 25px;
     color:blue;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+.formulario{
+    height:50%;
+    width:50%;
+    padding: 25px,30px;
+    margin:16px auto;
+    display:flex;
+    flex-wrap: wrap;
+
+    /* display:flex;
+    flex-direction: column; */
+    background-color: rgb(89, 59, 21);
+    font-family: 'Roboto', sans-serif;
+
+}
+.div{
+    display: grid;
+    grid-template: "a a a" auto
+                   "b b b"
 }
